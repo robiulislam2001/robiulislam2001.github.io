@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background: linear-gradient(135deg, #6a0dad, #32cd32); /* Purple and Green Background */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -53,10 +53,13 @@
             border: none;
             border-radius: 5px;
             text-decoration: none;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Added click effect */
         }
         .button:hover {
             background-color: #d43f00;
+        }
+        .button:active {
+            transform: scale(0.95); /* Button click effect */
         }
     </style>
 </head>
@@ -65,7 +68,7 @@
         <img src="https://raw.githubusercontent.com/robiulislam2001/Pikachu-Tools/refs/heads/main/logo.png" alt="Pikachu Tools Logo" class="logo">
         <div class="title">Pikachu Tools 2.0</div>
         <p class="description">বাংলাদেশের সেরা মেসেজ এবং কল বোম্বিং টুলস। নাম্বারে বোম্বিং দেয়া পর্যন্ত ইন্টারনেট লাগে তারপর
-আপনার ফোন অফ হয়ে যাক, ব্রাউজার ক্লোজ করে দেন, কিছুই হবেনা। আপনার 1 MB Data ও খরচ হবেনা, সবকিছু সার্ভার সাইড প্রোসেস হবে।</p>
+            আপনার ফোন অফ হয়ে যাক, ব্রাউজার ক্লোজ করে দেন, কিছুই হবেনা। আপনার 1 MB Data ও খরচ হবেনা, সবকিছু সার্ভার সাইড প্রোসেস হবে।</p>
         <div class="button-group">
             <a href="https://raw.githubusercontent.com/robiulislam2001/Pikachu-Tools/refs/heads/main/Pikachu%20Tools%202.0.apk" class="button" download>
                 Download APK
