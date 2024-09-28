@@ -39,7 +39,12 @@
             color: #555;
             margin-bottom: 20px;
         }
-        .download-btn {
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .button {
             display: inline-block;
             padding: 10px 20px;
             font-size: 18px;
@@ -50,20 +55,25 @@
             text-decoration: none;
             transition: background-color 0.3s ease;
         }
-        .download-btn:hover {
+        .button:hover {
             background-color: #d43f00;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Replace 'your-github-repo-url' with the direct link to the logo in your GitHub repository -->
         <img src="https://raw.githubusercontent.com/robiulislam2001/Pikachu-Tools/refs/heads/main/logo.png" alt="Pikachu Tools Logo" class="logo">
-        <div class="title">Pikachu Tools 2.0</div>
-        <p class="description">This is the most powerful tool in Bangladesh.</p>
-        <a href="https://raw.githubusercontent.com/robiulislam2001/Pikachu-Tools/refs/heads/main/Pikachu%20Tools%202.0.apk" class="download-btn" download>
-            Download APK
-        </a>
+        <div class="title">Pikachu Tools 2.0 || Call & SMS Bomber </div>
+        <p class="description">বাংলাদেশের সেরা মেসেজ এবং কল বোম্বিং টুলস। নাম্বারে বোম্বিং দেয়া পর্যন্ত ইন্টারনেট লাগে তারপর
+আপনার ফোন অফ হয়ে যাক, ব্রাউজার ক্লোজ করে দেন, কিছুই হবেনা। আপনার 1 MB Data ও খরচ হবেনা, সবকিছু সার্ভার সাইড প্রোসেস হবে।</p>
+        <div class="button-group">
+            <a href="https://raw.githubusercontent.com/robiulislam2001/Pikachu-Tools/refs/heads/main/Pikachu%20Tools%202.0.apk" class="button" download>
+                Download APK
+            </a>
+            <a href="https://pikachu-tools.my.id" class="button" target="_blank">
+                Visit Website
+            </a>
+        </div>
     </div>
 </body>
 </html>
