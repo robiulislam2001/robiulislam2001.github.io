@@ -4,44 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
     <title>Call & SMS Bomber In BD | Pikachu Tools 2.0</title>
     
-    <!-- SEO Meta -->
-    <meta name="description" content="বাংলাদেশের সেরা মেসেজ এবং কল বোম্বিং টুলস। নাম্বারে বোম্বিং দেয়া পর্যন্ত ইন্টারনেট লাগে তারপর আপনার ফোন অফ হয়ে যাক, ব্রাউজার ক্লোজ করে দেন, কিছুই হবেনা। আপনার 1 MB Data ও খরচ হবেনা, সবকিছু সার্ভার সাইড প্রোসেস হবে।" />
-    <meta name="keywords" content="call bomber bd, sms bomber, pikachu tools, bangladesh bomber tool" />
-    <meta name="author" content="Pikachu Tools" />
-
-    <!-- Facebook / Open Graph -->
-    <meta property="og:title" content="Pikachu Tools 2.0" />
-    <meta property="og:description" content="বাংলাদেশের সেরা মেসেজ এবং কল বোম্বিং টুলস। নাম্বারে বোম্বিং দেয়া পর্যন্ত ইন্টারনেট লাগে তারপর আপনার ফোন অফ হয়ে যাক, ব্রাউজার ক্লোজ করে দেন, কিছুই হবেনা।" />
-    <meta property="og:image" content="https://github.com/robiulislam2001/Pikachu-Tools/blob/main/photo_2025-03-22_23-15-09.jpg?raw=true" />
-    <meta property="og:url" content="https://pikachutools.my.id" />
-    <meta property="og:type" content="website" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Pikachu Tools 2.0" />
-    <meta name="twitter:description" content="বাংলাদেশের সেরা মেসেজ এবং কল বোম্বিং টুলস। নাম্বারে বোম্বিং দেয়া পর্যন্ত ইন্টারনেট লাগে তারপর আপনার ফোন অফ হয়ে যাক, ব্রাউজার ক্লোজ করে দেন, কিছুই হবেনা।" />
-    <meta name="twitter:image" content="https://github.com/robiulislam2001/Pikachu-Tools/blob/main/photo_2025-03-22_23-15-09.jpg?raw=true" />
-
-    <link rel="icon" type="image/x-icon" href="https://www.pikachutools.my.id/favicon.ico" />
+    <meta name="description" content="বাংলাদেশের সেরা মেসেজ এবং কল বোম্বিং টুলস।" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
-    
-    <style>
-        /* Animated Gradient Background */
-        @keyframes gradientBG {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
 
+    <style>
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
         body {
             font-family: 'Poppins', sans-serif;
             height: 100vh;
@@ -53,7 +26,6 @@
             background-size: 400% 400%;
             animation: gradientBG 15s ease infinite;
         }
-
         .container {
             text-align: center;
             background: rgba(255, 255, 255, 0.95);
@@ -61,31 +33,14 @@
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
             max-width: 450px;
-            width: 100%;
+            width: 90%;
             animation: fadeIn 0.8s ease-in-out;
         }
-
         @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
-
-        .logo {
-            width: 120px;
-            margin-bottom: 1.5rem;
-            transition: transform 0.3s ease;
-        }
-
-        .logo:hover {
-            transform: scale(1.1);
-        }
-
+        .logo { width: 120px; margin-bottom: 1.5rem; }
         .title {
             font-size: 2rem;
             font-weight: 700;
@@ -95,22 +50,10 @@
             background-clip: text;
             color: transparent;
         }
-
-        .description {
-            font-size: 1rem;
-            color: #666;
-            margin-bottom: 1.5rem;
-            line-height: 1.6;
-        }
-
-        .button-group {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
+        .description { font-size: 1rem; color: #666; margin-bottom: 1.5rem; line-height: 1.6; }
+        .button-group { display: flex; flex-direction: column; gap: 15px; }
         .button {
-            display: inline-block;
+            display: block;
             padding: 12px 25px;
             font-size: 1.1rem;
             font-weight: 600;
@@ -120,65 +63,24 @@
             border-radius: 25px;
             text-decoration: none;
             transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(255, 69, 0, 0.3);
             cursor: pointer;
         }
-
-        .button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(255, 69, 0, 0.4);
-            background: linear-gradient(45deg, #d43f00, #e65c00);
+        .btn-telegram {
+            background: linear-gradient(45deg, #0088cc, #00aaff);
         }
-
-        .button:active {
-            transform: scale(0.95);
-        }
-
-        /* Responsive for mobile */
-        @media (max-width: 480px) {
-            .container {
-                padding: 1.5rem 1.8rem;
-                margin: 10px;
-            }
-
-            .title {
-                font-size: 1.5rem;
-            }
-
-            .description {
-                font-size: 0.9rem;
-            }
-
-            .button {
-                padding: 10px 20px;
-                font-size: 1rem;
-            }
-
-            .logo {
-                width: 100px;
-            }
-        }
+        .button:hover { transform: translateY(-3px); opacity: 0.9; }
     </style>
 </head>
 <body>
     <div class="container">
-        <img
-            src="https://raw.githubusercontent.com/robiulislam2001/Pikachu-Tools/refs/heads/main/logo.png"
-            alt="Pikachu Tools Logo"
-            class="logo"
-        />
+        <img src="https://raw.githubusercontent.com/robiulislam2001/Pikachu-Tools/refs/heads/main/logo.png" alt="Logo" class="logo" />
         <div class="title">Pikachu Tools 2.0</div>
         <p class="description">
-            বাংলাদেশের সেরা মেসেজ এবং কল বোম্বিং টুলস। নাম্বারে বোম্বিং দেয়া পর্যন্ত ইন্টারনেট লাগে তারপর আপনার ফোন অফ হয়ে যাক,
-            ব্রাউজার ক্লোজ করে দেন, কিছুই হবেনা। আপনার 1 MB Data ও খরচ হবেনা, সবকিছু সার্ভার সাইড প্রোসেস হবে।
+            বাংলাদেশের সেরা মেসেজ এবং কল বোম্বিং টুলস। নাম্বারে বোম্বিং দেয়া পর্যন্ত ইন্টারনেট লাগে তারপর আপনার ফোন অফ হয়ে যাক, ব্রাউজার ক্লোজ করে দেন, কিছুই হবেনা। আপনার 1 MB Data ও খরচ হবেনা, সবকিছু সার্ভার সাইড প্রোসেস হবে। 
         </p>
-
         <div class="button-group">
-            <button class="button" onclick="location.href='https://pikachutools.my.id'">
-                Visit Website
-            </button>
-           
-            >
+            <a href="https://pikachutools.my.id" class="button">Visit Website</a>
+            <a href="https://t.me/pikachutools2" class="button btn-telegram">Join Telegram</a>
         </div>
     </div>
 </body>
